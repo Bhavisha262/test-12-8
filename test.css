@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(150deg, rgb(134, 97, 60), rgb(191, 76, 5));
+}
+.content1{
+    display: flex;
+    gap: 20px;
+    height: 80px;
+    align-items: center;
+}
+img{
+    margin-left: 10px;
+}
+h1{
+    color: rgb(254, 199, 199);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:larger;
+    font-weight:800;
+    text-shadow: 1px 1px rgb(75, 67, 0);
+}
+.navi{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding: 10px 90px;
+    color: rgb(241, 255, 90);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:550;
+}
+li{
+    padding: 5px;
+}
+li:hover{
+    color: rgb(30, 22, 251);
+    background-color: rgb(250, 152, 152);
+    cursor: pointer;
+    border: 1px solid brown;
+    border-radius: 5px;
+    transition:ease-out, 0.5s ;
+    
+}
+
+.content2{
+    background-image: url("./res.jpg");
+    background-repeat: no-repeat;
+    background-size: 1150px 800px;
+    height: 450px;
+}
+.content2 h2{
+    color: rgb(88, 214, 252);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    float: right;
+    padding: 80px 80px;
+    text-shadow: 3.5px 3.5px rgb(0, 0, 0);
+    
+}
+p{
+    color: rgb(255, 180, 123);
+    font-family:cursive;
+    padding: 200px 100px;
+    margin-left: 450px;
+    text-align: justify;
+}
+button{
+    color: beige;
+    background-color: chocolate;
+    font-size: medium;
+    border: 1px solid saddlebrown;
+    border-radius: 5px;
+    padding: 10px 10px;
+    float: right;
+    margin-right: 330px;
+    margin-top: -170px;
+}
+button:hover{
+    color: gold;
+    background-color: maroon;
+    cursor: pointer;
+}
+.content3{
+    width: 900px;
+    height: 250px;
+    background-color: rgb(187, 255, 187);
+    margin: 40px 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+h3{ color: palevioletred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: -240px;
+}
+h4{ color: blue;
+    margin-left: 530px;
+    margin-top: 15px;
+}
+.para{
+    color: rgb(108, 0, 49);
+    font-family:cursive;
+    padding: 20px 20px;
+    margin-left: 300px;
+    text-align: justify;
+    font-size: 15px;
+}
+.content3 img{
+    width: 250px;
+    height: 250px;
+}
+.content4{
+    background-color: rgb(213, 199, 251);
+    width: 800px;
+    height: 150px;
+    margin: 10px 130px ;
+    padding: 20px 10px;
+    border: 1px solid rgb(240, 169, 169);
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 5px 5px rgb(242, 188, 250); 
+}
+.star{
+    display: flex;
+    padding: 30px;
+    margin: 0px 25px;
+    gap: 250px;
+    height: 50px;
+}
+.des{
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    margin-top: 110px ;
+    margin-left: -730px;
+}
+h5{
+    color: rgb(255, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
+.content5{
+    background-image: url("./chef.png");
+    width: 1000px;
+    height: 400px;
+    margin: 50px 40px;
+    border: 1px solid brown;
+    border-radius: 15px;
+    display: flex;
+    gap: 30px;
+    box-shadow: 5px 5px rgb(238, 170, 111);
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(61, 42, 165);
+    margin: 50px 30px;
+    background-color: rgb(222, 48, 130);
+    background-image: url("./harish.jpg");
+    background-size: 250px 268px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.cardcontent h2{
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px black;
+    margin-left: 50px; 
+}
+.cardcontent p{
+    color: rgba(63, 3, 203, 0.829);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:contents;
+    font-size: small;
+}
+
+.card1{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(61, 42, 165);
+    margin: 50px 30px;
+    background-color: rgb(222, 48, 130);
+    background-image: url("./megha.jpg");
+    background-size: 250px 268px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.cardcontent1 h2{
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px black;
+    margin-left: 30px; 
+}
+.cardcontent1 p{
+    color: rgba(63, 3, 203, 0.829);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:contents;
+    font-size: small;
+}
+
+.card2{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(61, 42, 165);
+    margin: 50px 30px;
+    background-color: rgb(222, 48, 130);
+    background-image: url("./krishna.jpg");
+    background-size: 250px 268px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.cardcontent2 h2{
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px black;
+    margin-left: 55px; 
+}
+.cardcontent2 p{
+    color: rgba(63, 3, 203, 0.829);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:contents;
+    font-size: small;
+}
+
+.content6{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(150deg, rgb(121, 246, 64), rgb(226, 254, 64));
+}
+
+.content6 h1{
+    color: rgb(107, 12, 12);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    font-weight:800;
+    text-shadow: 3px 3px rgb(250, 169, 201);
+    height: 80px;
+    margin: 50px 350px;
+    padding: 19px 60px;
+}
+.content7{
+    margin: 30px 30px;
+    padding: 20px 20px;
+    width: 1000px;
+    height: 150px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    gap: 110px;
+    box-shadow: 3px 3px rgb(108, 0, 49);
+    border-radius: 10px;
+}
+.content7 th{
+    flex-direction: column;
+    color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration-line: underline;
+    
+}
+.content7 td{
+    display: block;
+    gap: 50px;
+    flex-direction: column;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: purple;
+}
+.content8{
+    display: flex;
+    
+}
+.content8 img{
+    margin: 30px 30px;
+    padding: 0px 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.content9{
+    display: flex;
+    
+}
+.content9 img{
+    margin: 30px 30px;
+    padding: 0px 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.content10{
+    margin: 30px 100px;
+    padding: 0px 40px;
+    width: 800px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: bisque;
+    
+}
+.content10 h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+}
+.content10 input{
+    border: 1px solid black;
+    min-width:160px;
+    height: 30px;
+    margin: 30px 300px;
+    text-align: center;
+}
+.content10 button{
+    border: 1px solid black;
+    min-width:160px;
+    height: 40px;
+   margin-top: 20px; 
+}
+.content11{
+    width: 100%;
+    height: 200px;
+    background-color:rgb(185, 199, 255);
+    display: flex;
+    gap: 150px;
+}
+.content11 th{
+    flex-direction: column;
+    color: rgb(117, 25, 153);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration-line: underline;
+    
+}
+.content11 td{
+    display: block;
+    gap: 50px;
+    flex-direction: row;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(252, 110, 9);
+}
+td:hover{
+    color: rgb(0, 42, 255);
+    background-color: aqua;
+    cursor: pointer;
+}
