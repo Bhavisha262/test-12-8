@@ -47,7 +47,7 @@ li:hover{
 }
 
 .content2{
-    background-image: url("./res.jpg");
+    background-image: url("res.jpg");
     background-repeat: no-repeat;
     background-size: 1150px 800px;
     height: 450px;
@@ -148,7 +148,7 @@ h5{
 }
 
 .content5{
-    background-image: url("./chef.png");
+    background-image: url("chef.png");
     width: 1000px;
     height: 400px;
     margin: 50px 40px;
@@ -166,7 +166,7 @@ h5{
     border: 1px solid rgb(61, 42, 165);
     margin: 50px 30px;
     background-color: rgb(222, 48, 130);
-    background-image: url("./harish.jpg");
+    background-image: url("harish.jpg");
     background-size: 250px 268px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -192,7 +192,7 @@ h5{
     border: 1px solid rgb(61, 42, 165);
     margin: 50px 30px;
     background-color: rgb(222, 48, 130);
-    background-image: url("./megha.jpg");
+    background-image: url("megha.jpg");
     background-size: 250px 268px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -218,7 +218,7 @@ h5{
     border: 1px solid rgb(61, 42, 165);
     margin: 50px 30px;
     background-color: rgb(222, 48, 130);
-    background-image: url("./krishna.jpg");
+    background-image: url("krishna.jpg");
     background-size: 250px 268px;
     background-repeat: no-repeat;
     background-position: bottom;
